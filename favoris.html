@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mes Favoris</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+  <div class="fav-page-header">
+    <h1>⭐ Mes Favoris</h1>
+    <a class="ghost-link" href="index.html">Retour</a>
+  </div>
+
+  <div id="erreur" class="error hidden"></div>
+
+  <div class="fav-header">
+    <h3>Villes enregistrées</h3>
+    <button id="clear-favs" class="ghost-btn">Tout supprimer</button>
+  </div>
+
+  <div id="fav-list" class="fav-list"></div>
+
+  <p class="hint">
+    Astuce : clique sur ↗️ pour ouvrir la météo sur la page principale.
+  </p>
+</div>
+
+<script src="scriptFavoris.js"></script>
+</body>
+</html>

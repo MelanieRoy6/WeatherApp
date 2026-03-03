@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mon Tableau de Bord Météo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+  <h1>🌤 Mon Tableau de Bord Météo</h1>
+
+  <div class="search-bar">
+    <input id="city-input" type="text" placeholder="Entrez une ville..." />
+    <button id="search-btn">Rechercher</button>
+    <button id="fav-btn" title="Ajouter aux favoris">⭐ Ajouter</button>
+    <a class="link-btn" href="favoris.html" title="Voir les favoris">⭐</a>
+  </div>
+
+  <div id="loading" class="loading hidden">Chargement...</div>
+
+  <div id="erreur" class="error hidden"></div>
+
+  <div id="meteo-actuelle" class="hidden"></div>
+  <div id="previsions" class="hidden"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
